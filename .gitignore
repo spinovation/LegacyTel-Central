@@ -1,0 +1,25 @@
+# Local Binaries and Executables
+legacytel-controlplane
+legacytel-supervisor
+legacytel-worker
+*.exe
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# OS-Specific Files
+.DS_Store
+Thumbs.db
+
+# Certificates and Private Keys (Do not push credentials to source control)
+**/certs/*.key
+**/certs/*.pem
+**/certs/*.crt
+certs/
+
+# Local logs and database caches
+logs/
+*.log
+*.sqlite
